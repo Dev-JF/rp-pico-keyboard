@@ -15,10 +15,9 @@ from adafruit_hid.consumer_control_code import ConsumerControlCode
 from wifiConnect import wifiCon
 
 
-pins = [GP0, GP1]
 
-def buttonAssign(gp):
-    digitalio.DigitalInOut(board.gp)
+
+
 
 
 # camera address
@@ -41,11 +40,12 @@ def buttomPutRequest(buttonNum, presetRequest):
 
 presetTwoDehau = "http://192.168.1.2:80/ISAPI/PTZCtrl/channels/1/presets/3/goto"
 
-button1 = buttonAssign(pins[1])
-button1.switch_to_input(pull=digitalio.Pull.UP)
+# doesnt want to detect gpio when passed to a function
+button1 = buttonAssign(GP0)
+buttonSwitch(button1)
 
-button2 = buttonAssign(pins[2])
-button1.switch_to_input(pull=digitalio.Pull.UP)
+button2 = buttonAssign(GP1)
+buttonSwitch(button2)
 
 # when the assigned button is pressed, run its set code
 while True:
