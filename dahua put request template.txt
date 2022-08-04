@@ -1,0 +1,10 @@
+if button1.value == False:
+        try:
+         print("bttn1 pressed")
+         response = requests.put("http://192.168.1.2:80/ISAPI/PTZCtrl/channels/1/presets/3/goto")
+         time.sleep(0.5)
+        except:
+            print("Preset 1 unreachable try again")
+
+
+
