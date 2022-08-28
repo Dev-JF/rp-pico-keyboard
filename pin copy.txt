@@ -1,0 +1,57 @@
+# Assigns the button to the gpio pin
+button1 = digitalio.DigitalInOut(board.GP0)
+button1.switch_to_input(pull=digitalio.Pull.UP)
+
+button2 = digitalio.DigitalInOut(board.GP1)
+button2.switch_to_input(pull=digitalio.Pull.UP)
+
+button3 = digitalio.DigitalInOut(board.GP2)
+button3.switch_to_input(pull=digitalio.Pull.UP)
+
+button4 = digitalio.DigitalInOut(board.GP3)
+button4.switch_to_input(pull=digitalio.Pull.UP)
+
+button5 = digitalio.DigitalInOut(board.GP4)
+button5.switch_to_input(pull=digitalio.Pull.UP)
+
+button6 = digitalio.DigitalInOut(board.GP5)
+button6.switch_to_input(pull=digitalio.Pull.UP)
+
+button7 = digitalio.DigitalInOut(board.GP6)
+button7.switch_to_input(pull=digitalio.Pull.UP)
+
+button8 = digitalio.DigitalInOut(board.GP7)
+button8.switch_to_input(pull=digitalio.Pull.UP)
+
+button9 = digitalio.DigitalInOut(board.GP8)
+button9.switch_to_input(pull=digitalio.Pull.UP)
+
+button10 = digitalio.DigitalInOut(board.GP9)
+button10.switch_to_input(pull=digitalio.Pull.UP)
+
+button11 = digitalio.DigitalInOut(board.GP10)
+button11.switch_to_input(pull=digitalio.Pull.UP)
+
+button12 = digitalio.DigitalInOut(board.GP11)
+button12.switch_to_input(pull=digitalio.Pull.UP)
+
+button13 = digitalio.DigitalInOut(board.GP12)
+button13.switch_to_input(pull=digitalio.Pull.UP)
+
+button14 = digitalio.DigitalInOut(board.GP13)
+button14.switch_to_input(pull=digitalio.Pull.UP)
+
+button15 = digitalio.DigitalInOut(board.GP14)
+button15.switch_to_input(pull=digitalio.Pull.UP)
+
+button16 = digitalio.DigitalInOut(board.GP26)
+button16.switch_to_input(pull=digitalio.Pull.UP)
+
+button17 = digitalio.DigitalInOut(board.GP27)
+button17.switch_to_input(pull=digitalio.Pull.UP)
+
+button18 = digitalio.DigitalInOut(board.GP28)
+button18.switch_to_input(pull=digitalio.Pull.UP)
+
+
+, GP2, GP3, GP4, GP5, GP6, GP7, GP8, GP9,GP10,GP11,GP12,GP13,GP14,GP26,GP27,GP28]
