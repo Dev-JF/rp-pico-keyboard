@@ -55,4 +55,4 @@ def wifiCon():
     print("My IP address is", esp.pretty_ip(esp.ip_address))
     print("IP lookup adafruit.com: %s" % esp.pretty_ip(esp.get_host_by_name("adafruit.com"))
 )
-    
+
