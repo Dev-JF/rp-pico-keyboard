@@ -1,5 +1,9 @@
 # rp-pico-keyboard
 
+Goals of the project:
+Allow an operator to send http request to move camera ptz positions. The two cameras include a hikvision and a dehau camera.
+
+
 
 This application uses micrpython libraries and airlift libraries (for the wifi module)
 
