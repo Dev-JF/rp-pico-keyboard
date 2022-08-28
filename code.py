@@ -21,7 +21,7 @@ from camRequest import hikReqs
 
 
 
-# camera address - may no need this with function dehauReqs and hikReqs function
+# camera address - may not need this with function dehauReqs and hikReqs function
 CAM_ONE_IP = "http://192.168.1.4"
 # CAM_ONE_IP = "192.168.1.4"
 CAM_TWO_IP = "192.168.1.2"
